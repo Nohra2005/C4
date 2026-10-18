@@ -1,0 +1,4 @@
+google-genai
+langgraph
+python-dotenv
+matplotlib

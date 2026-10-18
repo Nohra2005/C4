@@ -1,0 +1,13 @@
+setup,api_errors,pass_rate,tools_ok,facts_ok,no_hallucination,format_errors,avg_steps,avg_words,avg_latency_s,failed_cases
+baseline,0,1.0,1.0,1.0,1.0,1,1.4,33,11.0,
+no_cot,2,0.75,0.75,0.88,1.0,1,1.1,42,16.1,"dubai, order_done"
+few_shot,0,1.0,1.0,1.0,1.0,0,1.3,35,25.5,
+in_message,0,1.0,1.0,1.0,1.0,0,1.2,36,31.1,
+no_instructions,0,0.8,0.9,0.8,1.0,0,1.1,41,34.8,"dubai, ask_colour"
+temp_0,0,0.9,1.0,0.9,1.0,2,1.3,40,17.1,mtb_budget
+temp_1.3,0,1.0,1.0,1.0,1.0,0,1.3,39,11.7,
+top_p_0.3,0,0.8,1.0,0.8,1.0,2,1.3,37,19.5,"mtb_budget, ask_colour"
+model_3.5_flash,0,1.0,1.0,1.0,1.0,2,1.4,44,39.7,
+only_coach,1,1.0,1.0,1.0,1.0,0,1.2,44,5.3,
+only_tech,0,1.0,1.0,1.0,1.0,1,1.2,34,8.9,
+only_order,0,0.9,1.0,0.9,1.0,5,1.3,43,10.0,swim

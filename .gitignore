@@ -1,0 +1,5 @@
+.env
+__pycache__/
+logs/leads.jsonl
+logs/feedback.jsonl
+logs/old_runs/
