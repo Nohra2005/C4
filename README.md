@@ -41,7 +41,7 @@ so `llm.py` drops them and logs it.
 `search_catalog`, `get_product`, `compare_products`, `delivery_quote`, `get_policy`,
 `record_customer_interest` (validates email **and colour**), `record_feedback`.
 
-## Results (12 setups × 10 test questions)
+## Results (14 setups × 10 test questions)
 
 | Setup | Pass rate | Avg latency |
 |---|---|---|
@@ -52,6 +52,7 @@ so `llm.py` drops them and logs it.
 | no instructions block | 0.8 | 35 s |
 | temperature 0 / 1.3 | 0.9 / 1.0 | 17 s / 12 s |
 | top-p 0.3, top-k 3 | 0.8 | 20 s |
+| max output tokens 150 / 60 | 1.0 / 0.6 | 14 s / 10 s |
 | gemini-3.5-flash | 1.0 | 40 s |
 | Coach / Tech / Order Desk only | 1.0 / 1.0 / 0.9 | 5 s / 9 s / 10 s |
 
